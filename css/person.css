@@ -1,0 +1,308 @@
+body {
+    background: #f5f5f5;
+}
+
+.person_content {
+    width: 100%;
+    height: auto;
+    margin-top:.88rem;
+    overflow: hidden;
+}
+
+.person_content .person_info {
+    width: 100%;
+    height: 3.82rem;
+    background: #ffffff;
+    margin-top: 1.4rem;
+    position: relative;
+}
+
+.person_content .person_info img {
+    display: block;
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: .01rem .01rem .1rem #888888;
+    margin: 0 auto;
+    top: -.8rem;
+    left: 0;
+    right: 0;
+}
+
+.person_content .person_info span {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: .36rem;
+    color: #333333;
+    padding: 1.2rem 0 .1rem 0;
+}
+
+.person_content .person_info ul {
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem;
+    padding: 0 .8rem;
+}
+
+.person_content .person_info ul li {
+    font-style: normal;
+    font-size: .3rem;
+    color: #999999;
+    line-height: .96rem;
+}
+
+.ul_content > li {
+    display: none;
+}
+
+.choose_re {
+    width: .3rem;
+    height: .06rem;
+    background: #ffca02;
+    border-radius: .03rem;
+    margin: 0 auto;
+}
+
+/*收藏*/
+.ul_content {
+    width: 100%;
+    height: auto;
+    padding-bottom: .8rem;
+}
+
+.ul_content .collect {
+    padding: .4rem .24rem .15rem .24rem;
+    font-style: normal;
+    font-size: .24rem;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+.ul_content .per_collect {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.ul_content .per_collect li {
+    width: 3.36rem;
+    height: 2.93rem;
+    background: #ffffff;
+    border-radius: .1rem;
+    float: left;
+    margin-left: .26rem;
+    margin-top: .26rem;
+    position: relative;
+}
+
+.ul_content .per_collect li img {
+    display: block;
+    width: 3.36rem;
+    height: 1.89rem;
+}
+
+.ul_content .per_collect li i {
+    display: block;
+    padding: .16rem .24rem 0.02rem .24rem;
+    font-style: normal;
+    font-size: .3rem;
+    color: #333333;
+}
+
+.ul_content .per_collect li span {
+    display: block;
+    font-style: normal;
+    font-size: .24rem;
+    color: #bbbbbb;
+    padding: 0 .24rem;
+}
+
+/*关注的人*/
+.ul_content .per_attend {
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ul_content .per_attend li {
+    width: 100%;
+    height: 1.8rem;
+    margin-top: .2rem;
+    background: #ffffff;
+    border-radius: .08rem;
+    padding: .4rem;
+}
+
+.ul_content .per_attend li img {
+    display: block;
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+
+}
+
+.ul_content .per_attend li .media_info {
+    float: left;
+    margin-left: .22rem;
+
+}
+
+.ul_content .per_attend li .media_info i {
+    display: block;
+    font-style: normal;
+    font-size: .3rem;
+    color: #333333;
+    margin-top: .1rem;
+}
+
+.ul_content .per_attend li .media_info em {
+    display: block;
+    font-style: normal;
+    font-size: .24rem;
+    color: #bbbbbb;
+    margin-top: .1rem;
+}
+
+.ul_content .per_attend li span {
+    display: block;
+    float: right;
+    width: 2rem;
+    height: .8rem;
+    border: 1px solid #ffca02;
+    border-radius: .08rem;
+    font-style: normal;
+    font-size: .28rem;
+    color: #ffcc00;
+    text-align: center;
+    line-height: .8rem;
+    margin-top: .1rem;
+}
+
+/*消息*/
+.message {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    overflow: hidden;
+    margin-top: .26rem;
+}
+
+.message li {
+    width: 7rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.message li .mes {
+    width: 100%;
+    padding: .6rem 0 .4rem 0;
+    overflow: hidden;
+
+}
+
+.message li .mes img {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    float: left;
+}
+
+.message li .mes .mes_title {
+    float: left;
+    margin-left: .22rem;
+}
+
+.message li .mes .mes_title i {
+    display: block;
+    font-style: normal;
+    font-size: .35rem;
+    color: #333333;
+    margin-top: .1rem;
+}
+
+.message li .mes .mes_title span {
+    display: block;
+    font-style: normal;
+    font-size: .24rem;
+    color: #bbbbbb;
+    margin-top: .1rem;
+}
+
+.message li p {
+    width: 100%;
+    font-style: normal;
+    font-size: .3rem;
+    color: #333333;
+    padding-bottom: .68rem;
+}
+
+/*点击出现的删除*/
+.li_mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    border-radius: .1rem;
+    z-index: 99;
+}
+
+.li_mask em {
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    height: .8rem;
+    background: #ffcc00;
+    text-align: center;
+    line-height: .8rem;
+    font-style:normal;
+    font-size:.28rem;
+    color: #333333;
+    margin-top:.54rem;
+    border-radius:.1rem;
+}
+
+.li_mask .i_mask {
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+    font-style:normal;
+    font-size:.28rem;
+    color: #ffcc00;!important;
+    margin-top:.24rem;
+    border-radius:.1rem;
+    border:1px solid #ffcc00;
+}
+
+/*选项卡定位*/
+.posit{
+    position:fixed;
+    top:.84rem;
+    margin:0 auto;
+    left:0;
+    right:0;
+    width:100%;
+    height:.88rem;
+    background:#ffffff;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+
